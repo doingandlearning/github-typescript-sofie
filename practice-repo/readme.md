@@ -1,4 +1,5 @@
-Nicki Lolk Sørensen
-- On vacation in NW USA
-- Going to NAB
-- Hello to everyone
+Ryan Phillips
+- Lives in Rochester
+- Likes Wine
+- Enjoys making AI Content
+- is a dad
