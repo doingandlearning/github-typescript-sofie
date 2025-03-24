@@ -4,7 +4,7 @@
   - Website: [https://kevincunningham.co.uk](https://kevincunningham.co.uk)
   - Email: kevin@kevincunningham.co.uk
 
-- Miro Board: [{{ PLACEHOLDER FOR LINK }}]
+- Miro Board: [https://miro.com/app/board/uXjVIMW8x34=/?share_link_id=421932719255]
 - Feedback Form: [{{ PLACEHOLDER FOR LINK }}]
 
 ## Course Overview
