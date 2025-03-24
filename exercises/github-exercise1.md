@@ -23,7 +23,7 @@ By the end of this exercise, you will be able to:
 1. **Create a New Branch**:
    - Open GitHub Desktop.
    - Click the **“Current Branch”** dropdown at the top.
-   - Select **“New Branch”**, and name it something descriptive (e.g., `feature/add-tv-show`).
+   - Select **“New Branch”**, and name it something descriptive (e.g., `feature/add-favourite-author-alice`).
    - Click **“Create Branch”**. GitHub Desktop will switch to your new branch automatically.
 
 2. **Make a Change**:
