@@ -1,0 +1,21 @@
+{
+	"name": "script-demo",
+	"version": "1.0.0",
+	"description": "Demo project to show how npm scripts work",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node src/index.ts",
+		"say-hello": "cowsay Hello from the script demo!",
+		"check-types": "tsc --noEmit",
+		"build": "tsc",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"cowsay": "^1.5.0"
+	},
+	"devDependencies": {
+		"typescript": "^5.3.3",
+		"ts-node": "^10.9.2",
+		"prettier": "^3.1.0"
+	}
+}
