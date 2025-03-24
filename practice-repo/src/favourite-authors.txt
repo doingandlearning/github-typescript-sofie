@@ -1,10 +1,11 @@
-
-Favourite author 
+Favourite authors
 Brandon Sanderson
+Joe Haldeman
+Favourite authors
+Douglas Adams
 Terry Pratchett
 Bret Easton-Ellis
 Joe Haldeman
-Favourite authors
 Jasper Fforde
 Sue Townsend
 Robert Harris
@@ -12,4 +13,3 @@ Colleen Hoover
 
 Favourite TV show
 BigJetTV
-
