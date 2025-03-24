@@ -1,3 +1,5 @@
+//Testing writing a comment
+
 interface AudioConfig {
   defaultGain: number;
   enabled: boolean;
