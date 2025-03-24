@@ -10,4 +10,5 @@ const audioSettings: AudioConfig = {
   enabled: true,
   micNames: ["mic1", "mic2"],
   channel: 2
+  description: "studio A default config"
 };
