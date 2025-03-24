@@ -1,4 +1,5 @@
-Favourite author 
+Favourite authors
+Brandon Sanderson
 Joe Haldeman
 Favourite authors
 Douglas Adams
@@ -12,4 +13,3 @@ Colleen Hoover
 
 Favourite TV show
 BigJetTV
-test
