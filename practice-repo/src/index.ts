@@ -1,1 +1,1 @@
-console.log("This is a practice repo");
+console.log("This is a practice repo. Hello!");

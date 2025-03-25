@@ -14,7 +14,7 @@ function getMixerName(config: StudioConfig): string {
   return "";
 }
 
-const config: StudioConfig = {
+export const config: StudioConfig = {
   visionMixer: {
     type: VisionMixerDevice.Atem,
   },
