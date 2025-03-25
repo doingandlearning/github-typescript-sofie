@@ -10,7 +10,9 @@ const baseAudio: AudioConfig = {
 };
 
 const studioAudio = {
-  // TODO: Extend baseAudio, override defaultGain to 15, and add description
+  ...baseAudio,
+  defaultGain: 15,
+  description: 'Studio B audio config'
 };
 
 function printConfig(config: AudioConfig) {
