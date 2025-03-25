@@ -23,3 +23,15 @@ function logMicNames(config: StudioConfig) { //defines a function called logMicN
     console.log('No mic names found') //Or print out that no mic names are found
   }
 }
+
+logMicNames(config)
+
+function countMicNames(config: StudioConfig): number {
+  if (Array.isArray(config.micNames)) {
+    return config.micNames.length
+  }
+  return 0
+}
+
+const total = countMicNames(config)
+console.log('Total mic names: ${total}')
