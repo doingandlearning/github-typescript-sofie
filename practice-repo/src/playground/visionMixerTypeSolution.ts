@@ -12,11 +12,11 @@ interface StudioConfig {
 
 // Optional chaining
 function getMixerName(config: StudioConfig): string {
-  if (config.visionMixer?.type === "atem") {
+  if (config.visionMixer?.type === VisionMixerDevice.Atem) {
     return "Blackmagic Atem Mixer";
-  } else if (config.visionMixer?.type === "carbonite") {
+  } else if (config.visionMixer?.type === VisionMixerDevice.Carbonite) {
     return "Ross Carbonite Mixer";
-  } else if (config.visionMixer?.type === "sony") {
+  } else if (config.visionMixer?.type === VisionMixerDevice.Sony) {
     return "Sony Vision Mixer";
   } else {
     return "No vision mixer in this studio.";
@@ -29,11 +29,11 @@ function getMixerName2(config: StudioConfig): string {
     return "No vision mixer in this studio.";
   }
   switch (config.visionMixer.type) {
-    case "atem":
+    case VisionMixerDevice.Atem:
       return "Blackmagic Atem Mixer";
-    case "carbonite":
+    case VisionMixerDevice.Carbonite:
       return "Ross Carbonite Mixer";
-    case "sony":
+    case VisionMixerDevice.Sony:
       return "Sony Vision Mixer";
     default:
       return "";

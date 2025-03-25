@@ -60,4 +60,13 @@ Each session (except the first) includes **practical exercises**, such as:
 ---
 
 For any questions, please reach out to **kevin@kevincunningham.co.uk**.
-Someschanges!!
+
+---
+
+To run code in terminal:
+
+```bash
+npx tsx <filename>
+```
+
+You need to be in the right directory.
