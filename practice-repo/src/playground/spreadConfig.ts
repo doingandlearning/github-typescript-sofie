@@ -1,3 +1,5 @@
+import { baseAudioConfig } from "./configs/baseAudio";
+
 interface AudioConfig {
   enabled: boolean;
   defaultGain: number;
@@ -9,9 +11,12 @@ const baseAudio: AudioConfig = {
   defaultGain: 10,
 };
 
-const studioAudio = {
-  // TODO: Extend baseAudio, override defaultGain to 15, and add description
-};
+const studioAudio: AudioConfig = {
+  ...baseAudio,
+  defaultGain: 15, 
+  description: "Studio B audio config"
+}
+// TODO: Extend baseAudio, override defaultGain to 15, and add description
 
 function printConfig(config: AudioConfig) {
   console.log(config);
