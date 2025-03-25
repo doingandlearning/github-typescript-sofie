@@ -9,7 +9,10 @@ const baseAudio: AudioConfig = {
   defaultGain: 10,
 };
 
-const studioAudio = {
+const studioAudio: AudioConfig = {
+  ...baseAudio,
+  defaultGain: 15,
+  description: 'Studio somewhere audio config'    
   // TODO: Extend baseAudio, override defaultGain to 15, and add description
 };
 
