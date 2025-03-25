@@ -13,6 +13,7 @@ function getMixerName(mixerConfig: StudioConfig): string {
   // TODO: Return a human-readable name based on visionMixer type
     const type = mixerConfig.visionMixer?.type;
 
+    
     switch (type) {
 
       case VisionMixerDevice.Atem:
@@ -21,7 +22,6 @@ function getMixerName(mixerConfig: StudioConfig): string {
       return 'Ross Carbonite Mixer'
 
       default:
-
       return "No mixer defined"
 
     }
