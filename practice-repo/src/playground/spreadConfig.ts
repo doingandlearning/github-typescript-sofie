@@ -7,6 +7,8 @@ interface AudioConfig {
 const baseAudio: AudioConfig = {
   enabled: true,
   defaultGain: 10,
+  micNames: [],
+  channel: 0
 };
 
 const studioAudio = {
