@@ -35,6 +35,7 @@ By the end of this exercise, you will be able to:
      feature/add-studio-[yourname]
      ```
    - Click **Create Branch**.
+   - Run `npm install`
 
 3. **Choose a Meaningful Change**  
    Pick one of the following (or discuss with your trainer):
