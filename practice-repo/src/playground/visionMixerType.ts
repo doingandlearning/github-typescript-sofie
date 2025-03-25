@@ -21,5 +21,3 @@ const config: StudioConfig = {
 };
 
 console.log(getMixerName(config));
-
-export {};
