@@ -8,7 +8,7 @@ interface StudioConfig {
 //the contents of config is defined by the interface 'StudioConfig'
 const config: StudioConfig = {
   defaultGain: 10,
-  micNames: ["mic1", "mic2", "mic3"],
+  micNames: ["mic1", "mic2", "mic3", "mic4"],
 };
 
 // TODO: write a function to log each mic name in uppercase
@@ -35,3 +35,9 @@ function countMicNames(config: StudioConfig): number {
 
 const total = countMicNames(config)
 console.log('Total mic names: ${total}')
+
+//to run this file, you need to run the .ts file in node using terminal
+//locate the file using cd (change directory)
+//run: npx tsx nameoffile.ts
+//this will convert the .ts to .js in the background and display output in the terminal
+
