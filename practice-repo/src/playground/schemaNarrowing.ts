@@ -8,7 +8,7 @@ interface StudioConfig {
 //the contents of config is defined by the interface 'StudioConfig'
 const config: StudioConfig = {
   defaultGain: 10,
-  micNames: ["mic1", "mic2"],
+  micNames: ["mic1", "mic2", "mic3"],
 };
 
 // TODO: write a function to log each mic name in uppercase
