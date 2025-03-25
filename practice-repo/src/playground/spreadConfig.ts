@@ -4,7 +4,7 @@ interface AudioConfig {
   description?: string;
 }
 
-const baseAudio: AudioConfig = {
+export const baseAudio: AudioConfig = {
   enabled: true,
   defaultGain: 10,
   micNames: [],
@@ -21,4 +21,4 @@ function printConfig(config: AudioConfig) {
   console.log(config);
 }
 
-printConfig(studioAudio);
+// printConfig(studioAudio);
