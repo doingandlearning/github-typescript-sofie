@@ -21,7 +21,8 @@ function getMixerName(mixerConfig: StudioConfig): string {
       return 'Ross Carbonite Mixer'
 
       default:
-        return 'unknown mixer'
+
+      return "No mixer defined"
 
     }
 
@@ -29,7 +30,7 @@ function getMixerName(mixerConfig: StudioConfig): string {
 
 const mixerConfig: StudioConfig = {
   visionMixer: {
-    type: VisionMixerDevice.Atem,
+    type: VisionMixerDevice.Carbonite,
   },
 };
 
