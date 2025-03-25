@@ -11,22 +11,31 @@ interface StudioConfig {
 
 function getMixerName(mixerConfig: StudioConfig): string {
   // TODO: Return a human-readable name based on visionMixer type
-    const type = mixerConfig.visionMixer?.type;
+  if (mixerConfig.visionMixer?.type === "atem") {  
 
-    
-    switch (type) {
+  return "atem mixer";
 
-      case VisionMixerDevice.Atem:
-      return 'Blackmagic Atem Mixer';
-      case VisionMixerDevice.Carbonite:
-      return 'Ross Carbonite Mixer'
+} else if (mixerConfig.visionMixer?.type === "carbonite") {
 
-      default:
-      return "No mixer defined"
+  return "carbonite";
 
-    }
+} else {
+
+  return "no mixer in this studio"
+}
 
 }
+
+//    const type = mixerConfig.visionMixer?.type;
+//    switch (type) {
+//      case VisionMixerDevice.Atem:
+//      return 'Blackmagic Atem Mixer';
+//      case VisionMixerDevice.Carbonite:
+//      return 'Ross Carbonite Mixer'
+//      default:
+//      return "No mixer defined"
+//    }
+// }
 
 const mixerConfig: StudioConfig = {
   visionMixer: {
