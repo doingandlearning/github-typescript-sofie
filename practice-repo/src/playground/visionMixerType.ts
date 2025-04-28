@@ -11,7 +11,14 @@ interface StudioConfig {
 
 function getMixerName(config: StudioConfig): string {
   // TODO: Return a human-readable name based on visionMixer type
-  return "";
+  if (config.visionMixer?.type ==VisionMixerDevice.Atem) {
+    return "Blackmagic Atem Mix";
+  } else if (config.visionMixer?.type ==VisionMixerDevice.Carbonite) {
+    return "Ross Carbonite Mixer";
+  } else {
+    return "Unknown Mixer";
+  }
+
 }
 
 export const config: StudioConfig = {
