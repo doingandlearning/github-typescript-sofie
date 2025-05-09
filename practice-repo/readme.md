@@ -3,3 +3,4 @@ Ryan Phillips
 - Likes Wine
 - Enjoys making AI Content
 - is a dad
+- is a ninja
